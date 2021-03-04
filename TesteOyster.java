@@ -71,7 +71,7 @@ public class TryConnection {
 			
 			in.close();
 		} else {
-			System.out.println("Conexão falhou");
+			System.out.println("Conection error");
 			System.exit(0);
 		}
 		con.disconnect();
